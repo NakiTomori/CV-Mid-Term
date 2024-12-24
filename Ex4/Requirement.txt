@@ -1,0 +1,14 @@
+=> # Tải dữ liệu
+wget http://images.cocodataset.org/zips/train2017.zip
+wget http://images.cocodataset.org/zips/val2017.zip
+wget http://images.cocodataset.org/annotations/annotations_trainval2017.zip
+
+=> coco_dataset/
+├── train2017/
+├── val2017/
+└── annotations/
+    ├── instances_train2017.json
+    ├── instances_val2017.json
+    ...
+
+=> Install 3 model DETR, Faster R-CNN, YOLOv4
